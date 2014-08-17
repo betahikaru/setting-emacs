@@ -27,4 +27,4 @@
 (depends-on "yasnippet")
 
 ;; progmodes
-(depends-on "markdown-mode")
+(depends-on "markdown-mode") ;; http://jblevins.org/projects/markdown-mode/
