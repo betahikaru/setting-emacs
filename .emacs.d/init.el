@@ -15,6 +15,9 @@
 ;; helm-swoop
 (global-set-key (kbd "M-i") 'helm-swoop)
 
+;; flycheck
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
 ;; markdown-mode
 (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.markdown$" . markdown-mode))
