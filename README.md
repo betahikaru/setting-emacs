@@ -18,14 +18,14 @@ cd /path/to/repo
 git clone git@github.com:betahikaru/setting-emacs.git
 ```
 
-以降、/path/to/repoにダウンロードした前提で進める。
+以降、/path/to/repo/setting-emacsにダウンロードした前提で進める。
 
 - Install emacs (new version)
 
 ```shell
 brew update
 brew install emacs
-ln -s /path/to/repo/.emacs.d/init.el ~/.emacs.d/init.el
+ln -s /path/to/repo/setting-emacs/.emacs.d/init.el ~/.emacs.d/init.el
 ```
 
   - ⚠️注意⚠️
@@ -47,7 +47,7 @@ cd ~/.emacs.d
 cask init
  # Caskをシンボリックリンクにする。
 rm ~/.emacs.d/Cask
-ln -s /path/to/repo/.emacs.d/Cask ~/.emacs.d/Cask
+ln -s /path/to/repo/setting-emacs/.emacs.d/Cask ~/.emacs.d/Cask
  # Caskファイルに記載した設定ファイルをインストールする
 cask install
  # Caskの動作にどうも必要らしいのでシンボリックリンクをはる。
