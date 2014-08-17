@@ -26,5 +26,8 @@
 (depends-on "web-mode")
 (depends-on "yasnippet")
 
+;; auto-complete
+(depends-on "auto-complete")
+
 ;; progmodes
 (depends-on "markdown-mode") ;; http://jblevins.org/projects/markdown-mode/
