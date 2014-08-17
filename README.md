@@ -47,7 +47,7 @@ cd ~/.emacs.d
 cask init
  # Caskをシンボリックリンクにする。
 rm ~/.emacs.d/Cask
-ln -s /path/to/repo/Cask ~/.emacs.d/Cask
+ln -s /path/to/repo/.emacs.d/Cask ~/.emacs.d/Cask
  # Caskファイルに記載した設定ファイルをインストールする
 cask install
  # Caskの動作にどうも必要らしいのでシンボリックリンクをはる。
