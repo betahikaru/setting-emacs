@@ -36,5 +36,8 @@
 ;; flycheck
 (depends-on "flycheck") ;; http://flycheck.readthedocs.org/en/latest/guide/quickstart.html
 
+;; expand-region
+(depends-on "expand-region") ;; https://github.com/magnars/expand-region.el
+
 ;; progmodes
 (depends-on "markdown-mode") ;; http://jblevins.org/projects/markdown-mode/
