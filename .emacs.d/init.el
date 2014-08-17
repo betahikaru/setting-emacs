@@ -6,7 +6,6 @@
 (load-theme 'wombat t)
 
 ;; auto-complete
-(autoload 'auto-complete-mode "auto-complete.el" "auto-complete" t)
 (ac-config-default)
 
 ;; helm
