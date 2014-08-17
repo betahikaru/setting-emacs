@@ -41,7 +41,7 @@ alias emacs='Emacs'
 - Install cask
 
 ```shell
-berw install cask
+brew install cask
  # ./Caskファイル、./.caskフォルダを作成するためにinitを実行
 cd ~/.emacs.d
 cask init
