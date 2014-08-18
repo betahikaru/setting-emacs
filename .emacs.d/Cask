@@ -37,5 +37,8 @@
 ;; expand-region
 (depends-on "expand-region") ;; https://github.com/magnars/expand-region.el
 
+;; ace-jump-mode
+(depends-on "ace-jump-mode") ;; http://d.hatena.ne.jp/syohex/20120304/1330822993
+
 ;; progmodes
 (depends-on "markdown-mode") ;; http://jblevins.org/projects/markdown-mode/
