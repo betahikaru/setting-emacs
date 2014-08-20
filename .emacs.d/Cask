@@ -40,5 +40,8 @@
 ;; ace-jump-mode
 (depends-on "ace-jump-mode") ;; http://d.hatena.ne.jp/syohex/20120304/1330822993
 
+;; nlinum
+(depends-on "nlinum") ;; http://lisphack.blog137.fc2.com/blog-entry-14.html
+
 ;; progmodes
 (depends-on "markdown-mode") ;; http://jblevins.org/projects/markdown-mode/
