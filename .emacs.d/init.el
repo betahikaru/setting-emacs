@@ -1,3 +1,7 @@
+;;; init.el --- Root Emacs Configrations
+;;; Commentary:
+;;; Code:
+
 ;; Emacs package system
 (require 'cask "~/.emacs.d/.cask/cask.el")
 (cask-initialize)
