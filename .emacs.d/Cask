@@ -45,3 +45,4 @@
 
 ;; progmodes
 (depends-on "markdown-mode") ;; http://jblevins.org/projects/markdown-mode/
+(depends-on "twittering-mode") ;; http://www.emacswiki.org/emacs/TwitteringMode
